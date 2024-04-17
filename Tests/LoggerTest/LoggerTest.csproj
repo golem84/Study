@@ -17,4 +17,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LoggerService\LoggerService.csproj" />
+  </ItemGroup>
 </Project>
