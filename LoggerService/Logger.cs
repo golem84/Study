@@ -4,6 +4,7 @@ namespace LoggerService;
 
 public class Logger
 {
+    string logpath= System.Environment.CurrentDirectory;
     private FileInfo logfile;
 
     public Logger() 
@@ -13,6 +14,6 @@ public class Logger
 
     public string GetFilePath()
     {
-        return null;
+        return logpath;
     }
 }
